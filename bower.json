@@ -1,0 +1,14 @@
+{
+  "name": "evaluacion_aduarte",
+  "authors": [
+    "Andrés Duarte M. <andres.duarte.marquez@gmail.com>"
+  ],
+  "description": "Dependencias para front-end evaluación Agence",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "sweetalert": "^1.1.3"
+  }
+}
