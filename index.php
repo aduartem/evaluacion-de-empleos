@@ -44,7 +44,7 @@
         <tbody>
           <?php foreach($items as $key => $item): ?>
           <tr>
-            <td><span data-tooltip title="<?= $item['description'] ?>" class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> <span data-tooltip title="<?= $item['description'] ?>"><?= $item['nombre'] ?></span></td>
+            <td><span data-tooltip title="<?= $item['description'] ?>"><?= $item['nombre'] ?></span></td>
             <td>
               <input type="text" name="nota-empresa1[]" id="nota<?= $key ?>-empresa1" value="" class="form-control nota-empresa1 solo-decimales-y-enteros" data-correlativo="<?= $key ?>" placeholder="Nota <?= $item['nombre'] ?>">
             </td>
